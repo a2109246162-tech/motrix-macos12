@@ -8,6 +8,8 @@
 
 English | [简体中文](./README.zh-CN.md)
 
+> **This fork (macOS 12 compatibility edition)** — based on upstream Motrix v2.4.2, patched to run on macOS 12 Monterey. This edition does **not** include any ED2K changes. See [README-MACOS12.md](./README-MACOS12.md) for installation and the full list of changes, and [CHANGELOG-FORK.md](./CHANGELOG-FORK.md) for file-by-file modifications. A separate edition with ED2K recognition is published at `motrix-ed2k`.
+
 ## Overview
 
 Motrix is a clean, full-featured desktop download manager for HTTP, FTP, BitTorrent, magnet links, and more.
