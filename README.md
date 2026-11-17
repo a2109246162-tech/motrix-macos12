@@ -59,8 +59,9 @@ The only behavioural difference is the minimum supported macOS version.
 
 ## Install
 
-1. Download `Motrix-2.4.2-macos12-x64.dmg` from [Releases](../../releases).
-2. Open the DMG and drag **Motrix** into **Applications**.
+1. Download the four `.part-*` files from [Releases](../../releases).
+2. Join them: `cat Motrix-2.4.2-macos12-x64.dmg.part-* > Motrix-2.4.2-macos12-x64.dmg`.
+3. Open the DMG and drag **Motrix** into **Applications**.
 3. On first launch, right-click the app and choose **Open** if Gatekeeper blocks it.
 
 The build is ad-hoc signed, not notarized. **Do not enable in-app auto-update** — it would replace the patched binaries and require macOS 13 again.

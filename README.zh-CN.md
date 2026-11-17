@@ -59,8 +59,9 @@
 
 ## 安装
 
-1. 从 [Releases](../../releases) 下载 `Motrix-2.4.2-macos12-x64.dmg`。
-2. 打开 DMG，把 **Motrix** 拖进「应用程序」。
+1. 从 [Releases](../../releases) 下载四个 `.part-*` 分片。
+2. 合并：`cat Motrix-2.4.2-macos12-x64.dmg.part-* > Motrix-2.4.2-macos12-x64.dmg`。
+3. 打开 DMG，把 **Motrix** 拖进「应用程序」。
 3. 首次启动如被 Gatekeeper 拦截，右键应用选择「打开」。
 
 本构建使用 ad-hoc 签名，未做公证。**不要开启应用内自动更新**，否则会覆盖修补后的二进制，并重新要求 macOS 13。
